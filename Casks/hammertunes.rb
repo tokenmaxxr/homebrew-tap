@@ -4,7 +4,7 @@ cask "hammertunes" do
 
   url "https://github.com/tokenmaxxr/Hammertunes.spoon/releases/download/v#{version}/Hammertunes.spoon.zip"
   name "Hammertunes"
-  desc "Menubar now-playing pill for Hammerspoon - Spotify now, Apple Music planned"
+  desc "Menubar now-playing pill for Hammerspoon - Spotify now, Apple Music in alpha"
   homepage "https://github.com/tokenmaxxr/Hammertunes.spoon"
 
   livecheck do
