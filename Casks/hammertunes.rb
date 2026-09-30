@@ -1,10 +1,10 @@
 cask "hammertunes" do
-  version "0.1.0"
-  sha256 "718761fa77daf314868ee4bcbd0961054b7a6fb6e4ad9a81590373666888b5e3"
+  version "0.1.1"
+  sha256 "6e524482da1afcee517b9e456da1c95c5822d8a48e5239bdd287899e231e7bd0"
 
   url "https://github.com/tokenmaxxr/Hammertunes.spoon/releases/download/v#{version}/Hammertunes.spoon.zip"
   name "Hammertunes"
-  desc "Menubar now-playing pill for Hammerspoon - Spotify now, Apple Music in alpha"
+  desc "Menubar now-playing pill for Hammerspoon - Spotify and Apple Music (beta)"
   homepage "https://github.com/tokenmaxxr/Hammertunes.spoon"
 
   livecheck do
