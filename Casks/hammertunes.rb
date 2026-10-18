@@ -26,5 +26,8 @@ cask "hammertunes" do
 
     Homebrew installs are not git checkouts, so the spoon's built-in update
     check stays quiet; update with `brew upgrade --cask hammertunes` instead.
+
+    After upgrading, reload Hammerspoon via menu bar > Reload Config to load
+    the new code.
   EOS
 end
