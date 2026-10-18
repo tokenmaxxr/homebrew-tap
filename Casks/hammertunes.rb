@@ -1,6 +1,6 @@
 cask "hammertunes" do
-  version "0.1.4"
-  sha256 "8e002e011bcb9c48d2978c2ef8e0c1acba0d6eb553e7b5420756f3003ba878e2"
+  version "0.1.5"
+  sha256 "cf0d575ad015127d2f0241e39afcb1fa6de7bd7d5198df0660e7b1dc7c69cfe2"
 
   url "https://github.com/tokenmaxxr/Hammertunes.spoon/releases/download/v#{version}/Hammertunes.spoon.zip"
   name "Hammertunes"
