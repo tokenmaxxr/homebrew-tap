@@ -1,6 +1,6 @@
 cask "hammertunes" do
-  version "0.1.5"
-  sha256 "cf0d575ad015127d2f0241e39afcb1fa6de7bd7d5198df0660e7b1dc7c69cfe2"
+  version "0.1.6"
+  sha256 "9a0b9a26fe7253a9457352f8ecf699e03e24403c7f8d4105bac05029f7debee4"
 
   url "https://github.com/tokenmaxxr/Hammertunes.spoon/releases/download/v#{version}/Hammertunes.spoon.zip"
   name "Hammertunes"
@@ -28,6 +28,7 @@ cask "hammertunes" do
     check stays quiet; update with `brew upgrade --cask hammertunes` instead.
 
     After upgrading, reload Hammerspoon via menu bar > Reload Config to load
-    the new code.
+    the new code. If Spotify is still missing from the pill, quit and reopen
+    Hammerspoon.
   EOS
 end
